@@ -1,0 +1,240 @@
+:root {
+  --first-title-color: #303030;
+  --second-title-color: #ffffff;
+  --first-btn-color: #303030;
+  --second-btn-color: #ffffff;
+  --accent-color: #ff6c00;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+  background-color: grey;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--second-btn-color);
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+/* --------------------------------HEADER------------------------  */
+
+.header-link,
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #ff6c00;
+}
+
+.header-btn {
+  color: #ffffff;
+}
+
+/* -------------------HERO SECTION----------------------  */
+
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: #ff6c00;
+}
+.hero-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  color: var(--second-title-color);
+}
+
+.hero-after-title {
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
+}
+
+/* -------------------ABOUT SECTION----------------------  */
+
+.about-pre-title {
+  color: #303030;
+}
+.about-title {
+  color: var(--first-title-color);
+}
+.about-after-title {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about-btn {
+  color: var(--first-btn-color);
+}
+
+/* --------------------PRICES SECTION ------------------------- */
+
+.prices {
+  background-color: burlywood;
+}
+.prices-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.prices-title {
+  color: var(--second-title-color);
+}
+
+.prices-item-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.prices-btn {
+  color: var(--second-btn-color);
+}
+
+/* ------------------------------WHY WE SECTION----------------------------- */
+
+.benefits-item span {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.benefits-item sup {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.37;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.benefits-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: #303030;
+}
+
+.benefits-pre-title {
+  color: #303030;
+}
+
+.benefits-title {
+  color: #303030;
+}
+.benefits-after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+/* -------------------BARBERS--------------------- */
+
+.barbers-pre-title {
+  color: #303030;
+}
+.barbers-title {
+  color: var(--first-title-color);
+}
+.barbers-item-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.barbers-item-text {
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+}
+
+/* ---------------------------------GALLERY SECTION---------------------- */
+
+.gallery-pre-title {
+  color: #303030;
+}
+
+/* ------------------------------CONTACTS SECTION ---------------------- */
+
+.contacts-address {
+  font-style: normal;
+}
+.contacts-title {
+  color: var(--second-title-color);
+}
