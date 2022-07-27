@@ -6,6 +6,39 @@
   --accent-color: #ff6c00;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  color: currentColor;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+  background-color: grey;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -18,17 +51,20 @@
   border: 0;
 }
 
-body {
-  font-family: "Open sans", sans-serif;
-  background-color: grey;
-}
-
 .list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .pre-title {
@@ -63,6 +99,14 @@ body {
 }
 /* --------------------------------HEADER------------------------  */
 
+.hero-content {
+  padding: 272px 100px 206px;
+}
+
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .header-link,
 .header-tel {
   font-weight: 600;
@@ -97,26 +141,36 @@ body {
 }
 .hero-pre-title {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 20px;
 }
 
 .hero-title {
   color: var(--second-title-color);
+  margin-bottom: 20px;
 }
 
 .hero-after-title {
   font-size: 18px;
-  line-height: 1.66;
+  line-height: 1.67;
   letter-spacing: 0.2em;
   color: #9da4bd;
+  max-width: 360px;
 }
 
 /* -------------------ABOUT SECTION----------------------  */
 
+.about {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
 .about-pre-title {
   color: #303030;
+  margin-bottom: 20px;
 }
 .about-title {
   color: var(--first-title-color);
+  margin-bottom: 20px;
 }
 .about-after-title {
   font-family: "Open Sans";
@@ -124,12 +178,14 @@ body {
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: #555555;
+  margin-bottom: 20px;
 }
 .about-text {
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
   color: #555555;
+  margin-bottom: 40px;
 }
 .about-btn {
   color: var(--first-btn-color);
@@ -137,15 +193,23 @@ body {
 
 /* --------------------PRICES SECTION ------------------------- */
 
+.prices-list {
+  border: 1px solid #ff6c00;
+  padding: 30px 30px;
+}
+
 .prices {
-  background-color: burlywood;
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
 .prices-pre-title {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 20px;
 }
 
 .prices-title {
   color: var(--second-title-color);
+  margin-bottom: 44px;
 }
 
 .prices-item-text {
@@ -157,10 +221,24 @@ body {
 
 .prices-btn {
   color: var(--second-btn-color);
+  margin-top: 50px;
+  display: block;
+  margin: 50px auto 0;
 }
 
 /* ------------------------------WHY WE SECTION----------------------------- */
 
+.benefits {
+  padding-top: 121px;
+  padding-bottom: 130px;
+}
+
+.benefits-item {
+  width: 170px;
+  height: 133px;
+  border: 1px solid #303030;
+  padding: 20px 24px;
+}
 .benefits-item span {
   font-weight: 700;
   font-size: 42px;
@@ -187,11 +265,13 @@ body {
 }
 
 .benefits-pre-title {
-  color: #303030;
+  color: var(--first-title-color);
+  margin-bottom: 20px;
 }
 
 .benefits-title {
-  color: #303030;
+  color: var(--first-title-color);
+  margin-bottom: 20px;
 }
 .benefits-after-title {
   font-size: 18px;
@@ -203,7 +283,7 @@ body {
 /* -------------------BARBERS--------------------- */
 
 .barbers-pre-title {
-  color: #303030;
+  color: var(--first-title-color);
 }
 .barbers-title {
   color: var(--first-title-color);
